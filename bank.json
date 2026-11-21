@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "institutionId": "krungsri",
+  "country": "TH",
+  "displayName": "Krungsri",
+  "recipes": [
+    {
+      "templateId": "krungsri.savings.v1",
+      "institutionId": "krungsri",
+      "institutionName": "Krungsri",
+      "displayName": "Krungsri bank account",
+      "country": "TH",
+      "statementKind": "bank_account",
+      "revision": 1,
+      "schemaVersion": 1,
+      "requiredCapabilities": [
+        "thai-statements-v1"
+      ],
+      "sha256": "8c85ebf3a3be990e6907815b4b43b9851cfee6c304d694db95a34f6ef63fb4af",
+      "path": "templates/th/krungsri/savings.v1.json",
+      "changeSummary": "Initial reviewed bundled recipe."
+    }
+  ]
+}
